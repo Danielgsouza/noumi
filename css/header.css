@@ -1,0 +1,42 @@
+
+header{
+    position: relative;
+    /*border: solid red;*/
+    height: 85vh;
+    background-image: url('../imagens/comunicado.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    /*border: solid blue;*/
+    text-align: center;  
+    z-index: 1;  
+    
+}
+
+.topo{
+    /*border: solid yellow;*/
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    transform: translateY(60%);  
+    
+}
+
+h1{
+    font: 700 42px var(--font-h1) !important;
+    color: #fff;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+}
+
+#p-topo{
+    font-family: var(--font-p);
+    color: #fff;
+    font-size: 20px;
+    margin: 20px auto 0 auto;
+}

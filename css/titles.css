@@ -1,0 +1,65 @@
+:root{
+    --font-h1: var(--font-h2);
+    --font-h2: 'Cardo', serif !important;
+    --font-h3: var(--font-h2);
+    --font-h4: var(--font-h2);
+    --font-p: 'Quicksand', sans-serif !important;
+}
+
+.h2{
+    font: 400 48px var(--font-h2) !important;
+    letter-spacing: 2px;
+    color: #000;   
+    /*border:  solid yellow;*/
+    overflow-y: hidden;
+    display: block;
+    margin: 20px 0 45px 0 !important;
+    width: 100%;
+}
+
+.p{
+    color: var( --cor-p-personalizado);
+    letter-spacing: 1px;
+    font: 400 16px var(--font-p);
+}
+
+
+#titulo-personalizado{
+    color:#000;
+    text-align: center;
+    font: 400 48px var(--font-h1);
+}
+
+.centro-personalizado-depoimentos{
+    margin: auto;
+    width: 70%;
+    overflow-y: hidden;
+    box-shadow: 0px 20px 30px 10px rgb(0 0 0 / 10%);
+}
+
+.color{
+    background-color: #000;
+    
+}
+
+.texto-fixo{
+    margin: 50px 50px;
+    padding: 50px;
+}
+.texto-fixo h4{
+    /*border: solid;*/
+    text-align: center;
+    font: 16px var(--font-p);
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif !important; 
+}
+
+h3{
+    font: 500 1.5rem var(--font-h3) !important;  
+}
+.h3{
+    font: 400 48px var(--font-h3) !important;
+    overflow-y: hidden;
+  
+}
+

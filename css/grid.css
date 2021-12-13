@@ -1,0 +1,164 @@
+.fundo{
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+   
+}
+
+.meio{
+    column-count: 2;
+    /*border: solid;*/
+    height: 100vh;
+    
+}
+
+.esquerda{
+    /*border: solid green;*/
+    width: 30%;
+    position: absolute;
+    overflow-y: hidden;
+    height: 100%;
+    
+}
+
+.direita{
+    /*border: solid purple;*/
+    width: 47.7%;
+    position: absolute;
+    right: 10%;
+    height: 100%;
+    padding: 110px 0;
+
+}
+
+.lado-esquerdo{
+    /*border: solid gray;*/
+    width: 45%;
+    position: absolute;
+    overflow-y: hidden;
+    height: 100%;
+    margin-left: 30px;
+    
+}
+
+.lado-direito{
+    /*border: solid purple;*/
+    width: 30%;
+    position: absolute;
+    top: 90%;
+    right: 15%;
+    height: 100vh;
+
+
+}
+
+.conjunto {
+    /*border: solid red;*/
+    transform: translateY(10%);
+    width: 80%;
+    overflow-y: hidden;
+}
+
+.conjunto p, .conjunto h2{
+    margin-top: 30px;
+}
+
+.centro{
+    /*border: solid pink;*/
+    width: 600px;
+    margin: 100px auto;
+    transform: translate(50% 50%);
+}
+
+.centro p{
+    margin-top: 50px;
+}
+
+
+.tela-cheia{
+    /*border: solid;*/
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    margin-top: 0px;
+}
+
+.esquerda-maior{
+    /*border: solid green;*/
+    width: 40%;
+    position: absolute;
+    overflow-y: hidden;
+    height: 100vh;
+    margin-left: 0;
+}
+
+
+.direita-maior{
+    /*border: solid purple;*/
+    width: 60%;
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    padding-left: 100px;
+}
+
+
+#texto-nupicias{
+    /*border: solid;*/
+    width: 100%;  
+    
+}
+.centro-personalizado-nupicias{
+    /*border: solid;*/
+    width: 40%;
+    display: block;
+    margin: 100px 0;
+    overflow-y: hidden;
+}
+
+
+.conjunto-centro-convencoes{
+   /* border: solid;*/
+    margin-top: 25%;
+}
+
+.centro-personalizado{
+    /*border: solid;*/
+    width: 35%;
+    display: block;
+    margin: 100px 0;
+    overflow-y: hidden;
+}
+
+.centro-personalizado p{
+    margin-top: 50px;
+}
+
+#esquerda-texto{
+    /*border: solid green;*/
+    width: 25%;
+    position: absolute;
+    overflow-y: hidden;
+    height: 100%;
+}
+.container-convenio{
+    width: 100%;
+}
+
+.novo-container{
+    width: 100%;
+    height: 100vh;
+    /*border: solid purple;*/
+    padding: 50px 0 0 0;
+    /*background-color: var(--cor-de-fundo);*/ 
+}
+
+.novo-container p{
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.novo-centro{
+    /*border: solid;*/
+    padding: 100px 0;
+    text-align: center;
+}
